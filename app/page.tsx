@@ -53,12 +53,13 @@ export default function ModernDentalSite() {
       <div className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
         <nav className="bg-white/80 backdrop-blur-xl border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-full px-6 py-3 flex items-center justify-between w-full max-w-5xl transition-all">
           
-          {/* Logo */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('home')}>
-            <img src="/logo1.png" alt="Logo" className="h-20 w-auto rounded-full" />
-            <div className="hidden sm:block leading-tight">
-            <span className="block text-xl font-bold text-slate-900 tracking-tight">PRAKYATH</span>
-              <span className="text-[15px] uppercase font-bold text-blue-600 tracking-widest">Dental & Orthodontic Centre</span>
+         {/* Logo - Bolder Text & Full Name */}
+         <div className="flex items-center gap-2 md:gap-3 cursor-pointer" onClick={() => scrollTo('home')}>
+            <img src="/logo 1.jpg" alt="Logo" className="h-10 md:h-12 w-auto rounded-full" />
+            <div className="leading-tight">
+              <span className="block font-bold text-slate-900 tracking-tight text-base md:text-xl">PRAKYATH</span>
+              {/* Updated subtext to full name */}
+              <span className="text-[10px] md:text-xs uppercase font-bold text-blue-600 tracking-widest">Dental & Orthodontic Centre</span>
             </div>
           </div>
 
