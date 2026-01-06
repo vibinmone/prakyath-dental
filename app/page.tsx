@@ -57,8 +57,8 @@ export default function ModernDentalSite() {
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('home')}>
             <img src="/logo1.png" alt="Logo" className="h-20 w-auto rounded-full" />
             <div className="hidden sm:block leading-tight">
-              <span className="block font-bold text-slate-900 tracking-tight">PRAKYATH</span>
-              <span className="text-[10px] uppercase font-bold text-blue-600 tracking-widest">Dental & Orthodontic Centre</span>
+            <span className="block text-xl font-bold text-slate-900 tracking-tight">PRAKYATH</span>
+              <span className="text-[15px] uppercase font-bold text-blue-600 tracking-widest">Dental & Orthodontic Centre</span>
             </div>
           </div>
 
