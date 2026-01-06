@@ -33,7 +33,7 @@ const DOCTORS = [
   { name: "Dr. Prakrathi P. Shetty", role: "Dental Surgeon", exp: "30 Yrs Exp", image: "/dr-prakrathi.webp" },
   { name: "Prof. Dr. Vidyadhar Shetty", role: "Endodontist", exp: "25 Yrs Exp", image: "/dr-vidyadhar.webp"  },
   { name: "Prof. Dr. Padmaraj Hegde", role: "Oral Surgeon", exp: "25 Yrs Exp", image: "/Dr-Padmaraj.webp" },
-  { name: "Prof. Dr. Chaithanya Shanbhag", role: "Periodontist", exp: "25 Yrs Exp", image: "/Dr-Padmaraj.webp" },
+  { name: "Prof. Dr. Chaithanya Shanbhag", role: "Periodontist", exp: "25 Yrs Exp", image: "/Dr-Chaithanya.webp" },
   { name: "Dr. Prathiksha Shetty", role: "Endodontist", exp: "Specialist", image: "/dr-prathiksha.webp" },
 ];
 
